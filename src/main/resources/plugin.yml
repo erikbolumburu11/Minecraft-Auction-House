@@ -1,0 +1,24 @@
+name: EconomyPlugin
+version: '${project.version}'
+main: me.erikbolumburu.economyplugin.EconomyPlugin
+api-version: 1.19
+authors: [ ErikFlynn ]
+description: Economy Plugin
+website: me.craig
+commands:
+  bal:
+    description: Check Balance
+    usage: /<command>
+    permission: yourplugin.yourcommandpermission
+  givebalance:
+    description: Give Balance
+    usage: /<command>
+    permission: yourplugin.yourcommandpermission
+  sell:
+    description: Sell Item
+    usage: /<command>
+    permission: yourplugin.yourcommandpermission
+  ah:
+    description: Sell Item
+    usage: /<command>
+    permission: yourplugin.yourcommandpermission
